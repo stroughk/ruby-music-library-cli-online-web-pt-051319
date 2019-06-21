@@ -11,6 +11,10 @@ class Genre
   def self.all 
     @@all 
   end 
+  
+  def destroy_all
+    @@all.clear
+  end 
     
   
   
