@@ -6,8 +6,15 @@ class Song
     @@all
   end
   
+  
+  def initialize
+    save
+  end
+  
   def save 
-    @@all << 
+    @@all << self 
+  
+  end
   
   
 end
