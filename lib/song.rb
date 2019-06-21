@@ -10,7 +10,9 @@ class Song
     self.genre = genre if genre
   end
   
-  
+  def self.all
+    @@all 
+  end 
   
   
 end
